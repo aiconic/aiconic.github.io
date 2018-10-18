@@ -1,0 +1,33 @@
+#text {
+  background-color: #FFFFFF;
+  color: #303030;
+  font-family: Baskerville, sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 38px;
+  margin: 100px auto;
+  width: 90%;
+  -webkit-font-smoothing: antialiased;
+}
+
+#text a {
+  color: #808080;
+  text-decoration: none;
+}
+
+#text a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 650px) {
+  #text {
+    font-size: 14px;
+    line-height: 15px;
+    margin: 20px auto;
+  }
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
